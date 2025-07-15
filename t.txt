@@ -4,7 +4,9 @@ git add .
 git status
 git commit -m "Initial project version 1"
 
-
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
 
 git remote add origin git@github.com:Atiroj049/mini-ecommerce-collaboration.git
 git remote -v
