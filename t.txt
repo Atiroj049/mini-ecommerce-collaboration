@@ -1,0 +1,23 @@
+git init
+git status
+git add . 
+git status
+git commit -m "Initial project version 1"
+
+
+
+git remote add origin git@github.com:Atiroj049/mini-ecommerce-collaboration.git
+git remote -v
+git push -u origin main 
+
+git config pull.rebase false 
+
+# Pull the remote changes first
+git pull origin main
+
+# If there are merge conflicts, resolve them, then:git statu
+git add .
+git commit -m "Merge remote changes"
+
+# Now push your changes
+git push -u origin main
