@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             displayProducts(allProducts);
         });
 
+
     function displayProducts(products) {
         productList.innerHTML = ''; // Clear previous list
         products.forEach(product => {
@@ -27,7 +28,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Inefficient Search
     searchInput.addEventListener('keyup', () => {
-        const searchTerm = searchInput.value.toLowerCase();
+        // เป็นอันนี้ทำการตัดช่องเวลา Dev B
+        // 1.ปรับปรุงการค้นหา
+        // const searchTerm = searchInput.value.toLowerCase(); ทำการแก้ไข
+        //เป็นอันนี้
+        const searchTerm = searchInput.value.trim().toLowerCase();
+
+        // 2.เพิ่ม Validation (จำลอง)
+        if (searchTerm === "") {
+            displayProducts(allProducts); // แสดงสินค้าทั้งหมด
+            return;
+        }
+
         const filteredProducts = allProducts.filter(product => {
             // Simple search, not very efficient
             return product.name.toLowerCase().includes(searchTerm);
