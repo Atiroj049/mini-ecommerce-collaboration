@@ -1,8 +1,8 @@
 [
-    {"id": 1, "name": "Classic T-Shirt", "price": 499, "image": "https://placehold.co/150/FF0000/FFFFFF?text=T-Shirt"},
-    {"id": 2, "name": "Running Shoes", "price": 1200, "image": "https://placehold.co/150/0000FF/FFFFFF?text=Shoes"},
-    {"id": 3, "name": "Smart Watch", "price": 3500, "image": "https://placehold.co/150/00FF00/FFFFFF?text=Watch"},
-    {"id": 4, "name": "Denim Jeans", "price": 990, "image": "https://placehold.co/150/FFFF00/000000?text=Jeans"},
-    {"id": 5, "name": "Leather Backpack", "price": 1850, "image": "https://images.unsplash.com/photo-1561126135-b7a5dfadace6?q=80&w=500"},
-    {"id": 6, "name": "Sunglasses", "price": 750, "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&q=80"}
+    {"id": 1, "name": "Classic T-Shirt", "price": 499, "image": "/imag/เสื้อ.jpg"},
+    {"id": 2, "name": "Running Shoes", "price": 1200, "image": "/imag/รองเท้า.jpg"},
+    {"id": 3, "name": "Smart Watch นาฬิกาเบนเท็น", "price": 350000000, "image": "https://img.lazcdn.com/g/p/5bb4fc33ebe353ff6cc1cfe6c8dae08a.jpg_720x720q80.jpg"},
+    {"id": 4, "name": "Denim Jeans", "price": 990, "image": "/imag/กางเกง.jpg"},
+    {"id": 5, "name": "Leather Backpack กระเป๋าแมลงสาบ", "price": 185000000, "image": "https://petmaya.com/wp-content/uploads/2015/12/Ugly-Backpack-01.jpg"},
+    {"id": 6, "name": "Sunglasses แว่นตาเอเลี่ยนบุกโลก", "price": 750000000000, "image": "https://cc.lnwfile.com/_/cc/_resize/150/200/h7/gt/cl.jpg"}
 ]
