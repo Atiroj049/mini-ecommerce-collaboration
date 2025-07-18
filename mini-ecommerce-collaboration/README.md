@@ -10,4 +10,4 @@
 - Dev B: ปรับปรุงระบบค้นหา, เพิ่ม Validation, แก้ Merge Conflict
 
 ## 🛠 วิธีใช้งาน
-1. Clone repository:
+1. Clone repository:https://github.com/Atiroj049/mini-ecommerce-collaboration.git
