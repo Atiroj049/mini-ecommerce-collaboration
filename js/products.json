@@ -1,5 +1,5 @@
 [
-    {"id": 1, "name": "Classic T-Shirt", "price": 499, "image": "/imag/เสื้อ.jpg"},
+    {"id": 1, "name": "suit", "price": 499, "image": "/imag/เสื้อ.jpg"},
     {"id": 2, "name": "Running Shoes", "price": 1200, "image": "/imag/รองเท้า.jpg"},
     {"id": 3, "name": "Smart Watch นาฬิกาเบนเท็น", "price": 350000000, "image": "https://img.lazcdn.com/g/p/5bb4fc33ebe353ff6cc1cfe6c8dae08a.jpg_720x720q80.jpg"},
     {"id": 4, "name": "Denim Jeans", "price": 990, "image": "/imag/กางเกง.jpg"},
