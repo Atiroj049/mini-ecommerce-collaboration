@@ -1,5 +1,5 @@
-body { font-family: sans-serif; margin: 0; background-color: #767676; }
-header { background: #333; color: #fff; padding: 1rem; text-align: center; }
+body { font-family: sans-serif; margin: 0; background-color: #393E46; }
+header { background: #222831; color: #fff; padding: 1rem; text-align: center; }
 input[type="text"] { width: 60%; padding: 8px; }
 main {justify-content: center; padding: 1rem; }
 .product-card {
@@ -77,10 +77,35 @@ main {justify-content: center; padding: 1rem; }
 }
 
 .product-card:hover {
-    box-shadow: 0 8px 20px rgb(255, 255, 255);
+    box-shadow: 0 8px 30px #EEEEEE;
     transform: translateY(-5px); /* ขยับขึ้นเล็กน้อย */
 }
 
-.product-card:hover {
-    border-radius: 1000px;
+.product-card {
+    display: inline-block;
+    position: relative;
+    padding: 1px 1px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.product-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0; /* เริ่มต้นนอกจอด้านซ้าย */
+    width: 0;
+    height: 2px;
+    background: #222831;
+    transition: width 2s ease;
+  
+}
+
+.product-card:hover::after {
+    width: 100%;
+}
+
+.search-container input {
+    border-radius: 50px;
+    box-shadow: 0px 2px 2px rgb(0, 251, 255);
 }
