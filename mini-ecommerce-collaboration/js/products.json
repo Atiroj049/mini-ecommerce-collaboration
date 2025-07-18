@@ -1,8 +1,8 @@
 [
-    {"id": 1, "name": "suit", "price": 499, "image": "/imag/เสื้อ.jpg"},
-    {"id": 2, "name": "Running Shoes", "price": 1200, "image": "/imag/รองเท้า.jpg"},
+    {"id": 1, "name": "jacket", "price": 499, "image": "https://i.pinimg.com/236x/b8/c7/f0/b8c7f0a1c692d030970944d9d4dc45af.jpg"},
+    {"id": 2, "name": "Running Shoes", "price": 1200, "image": "https://pbs.twimg.com/media/Gq1DJEiXgAAXj6s?format=jpg&name=large"},
     {"id": 3, "name": "Smart Watch นาฬิกาเบนเท็น", "price": 350000000, "image": "https://img.lazcdn.com/g/p/5bb4fc33ebe353ff6cc1cfe6c8dae08a.jpg_720x720q80.jpg"},
-    {"id": 4, "name": "Denim Jeans", "price": 990, "image": "/imag/กางเกง.jpg"},
+    {"id": 4, "name": "Denim Jeans", "price": 990, "image": "https://photo.woood.net/wp-content/uploads/2022/04/%E5%B7%A8%E5%A4%A7%E3%82%B8%E3%83%BC%E3%83%B3%E3%82%BA%E3%82%92%E4%BA%8C%E4%BA%BA%E3%81%A7%E5%B1%A5%E3%81%84%E3%81%A6%E3%81%BF%E3%81%9F-341x454.jpg"},
     {"id": 5, "name": "Leather Backpack กระเป๋าแมลงสาบ", "price": 185000000, "image": "https://petmaya.com/wp-content/uploads/2015/12/Ugly-Backpack-01.jpg"},
     {"id": 6, "name": "Sunglasses แว่นตาเอเลี่ยนบุกโลก", "price": 750000000000, "image": "https://cc.lnwfile.com/_/cc/_resize/150/200/h7/gt/cl.jpg"}
 ]
